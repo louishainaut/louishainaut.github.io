@@ -10,9 +10,9 @@ redirect_from:
 
 ## Education
 
-* BSc in Mathematics, University of Bonn, 2014--2017
-* MSc in Mathematics, University of Bonn, 2017--2019
-* PhD in Mathematics, Stockholm University, 2019--
+* PhD in Mathematics, Stockholm University, 2019--now.
+* MSc in Mathematics, University of Bonn, 2017--2019.
+* BSc in Mathematics, University of Bonn, 2014--2017.
 
 ## Publications
 
