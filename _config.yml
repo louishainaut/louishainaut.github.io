@@ -18,12 +18,13 @@ breadcrumbs              : false
 
 # Site Author
 author:
-  name             : "Robin Stoll"
-  avatar           : "profile.png"
-  bio              : "PhD student in Algebraic Topology"
-  employer         : "Stockholm University"
-  email            : "robin.stoll@math.su.se"
-  orcid            : "https://orcid.org/0000-0002-2068-6228"
+  name     : "Robin Stoll"
+  avatar   : "profile.png"
+  bio      : "PhD student in Algebraic Topology"
+  employer : "Stockholm University"
+  email    : "robin.stoll@math.su.se"
+  orcid    : "https://orcid.org/0000-0002-2068-6228"
+  arxiv    : "https://arxiv.org/a/0000-0002-2068-6228.html"
 
 # Reading Files
 include:
