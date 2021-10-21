@@ -8,51 +8,45 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Education
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* BSc in Mathematics, University of Bonn, 2014--2017
+* MSc in Mathematics, University of Bonn, 2017--2019
+* PhD in Mathematics, Stockholm University, 2019--
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Publications
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+See [here](/publications/).
+
+## Teaching
+
+I was teaching assistant for the following courses.
+
+At Stockholm University:
+* Summer 2021: _Foundations of Analysis_ and _Abstract algebra_.
+
+At the University of Bonn:
+* Summer 2019: _Topology II_.
+* Winter 2018/19: _Topology I_.
+* Summer 2018: _Introdction to Geometry and Topology_.
+* Winter 2017/18: _Topology I_.
+* Summer 2017: _Introdction to Geometry and Topology_.
+* Winter 2016/17: _Analysis I_.
+
+Additionally I taught the following week-long courses at summer schools of the [Quod Erat Demonstrandum e.V.](https://qed-verein.de/) (see below under "Other"):
+
+* 2021: _Geometric group theory_, with [Aras Ergus](https://aergus.net/).
+* 2020: _Knot theory and practice_, with [Aras Ergus](https://aergus.net/).
+* 2017: _Introduction to Topology_, with [Leon Hendrian](http://hendrian.net).
+
+## Conferences and Workshops
+
+TODO
+
+## Other
+
+* I have been a member of the [Quod Erat Demonstrandum e.V.](https://qed-verein.de/), a Bavarian math club for high school and university students, since 2011 and was its deputy chairman from 2013 to 2015.
+I also functioned as an organizer for one of its seminars (in 2013) and one summer school/academy (in 2014).
+Moreover, together with Aras Ergus and Leon Hendrian, I taught three courses at its summer school (in 2017, 2020, and 2021), see under "Teaching".
+* I participated in the [ICFP Programming Contest](https://www.icfpconference.org/contest.html) as part of team udfew in 2015 and every year since 2017.
+* In my high school years I participated in various German math competitions, with success at the federal state level.
