@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Publications and Preprints"
 permalink: /publications/
 author_profile: true
 redirect_from:
@@ -9,11 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-## Publications and Preprints
+1. Robin Stoll.
+_Modular operads as modules over the Brauer properad_.
+In preparation, 2021.
 
 1. Marvin Randig, Dierk Schleicher, and Robin Stoll.
 _Newton's method in practice II: The iterated refinement Newton method and near-optimal complexity for finding all roots of some polynomials of very large degrees_.
-Preprint, 2017.
+Submitted for publication, 2017.
 arXiv: [1703.05847](https://arxiv.org/abs/1703.05847).
 
 1. Dierk Schleicher and Robin Stoll.
