@@ -31,15 +31,15 @@ See [here](/publications/).
 * 2021-06: Masterclass on high dimensional cohomology of moduli spaces -- Copenhagen
 * 2021-06: Workshop on Higher Structures and Operadic Calculus -- Barcelona (virtual)
 * 2019-12: Opening workshop of the "Operads, Calculus, and Homotopy theory methods in Topology" research project -- Lausanne
-* 2019-09: European Autumn School in Topology -– Utrecht
-* 2019-07: Young Topologists Meeting –- Lausanne
-* 2019-03: Bayerische Kleine AG about “The Landweber Exact Functor Theorem” –- Bayreuth
-* 2018-09: European Autumn School in Topology -– Utrecht
-* 2018-07: Young Topologists Meeting –- Copenhagen
-* 2017-07: Young Topologists Meeting –- Stockholm
-* 2016-09: Heidelberg Laureate Forum -– Heidelberg
-* 2015-07: Modern Mathematics International Summer School for Students –- Bremen
-* 2013-07: Modern Mathematics International Summer School for Students -– Bremen
+* 2019-09: European Autumn School in Topology -- Utrecht
+* 2019-07: Young Topologists Meeting -- Lausanne
+* 2019-03: Bayerische Kleine AG about “The Landweber Exact Functor Theorem” -- Bayreuth
+* 2018-09: European Autumn School in Topology -- Utrecht
+* 2018-07: Young Topologists Meeting -- Copenhagen
+* 2017-07: Young Topologists Meeting -- Stockholm
+* 2016-09: Heidelberg Laureate Forum -- Heidelberg
+* 2015-07: Modern Mathematics International Summer School for Students -- Bremen
+* 2013-07: Modern Mathematics International Summer School for Students -- Bremen
 
 ### Organization
 
