@@ -8,6 +8,8 @@ redirect_from:
 
 {% include base_path %}
 
+For a PDF version click [here](/files/Robin_Stoll_cv.pdf).
+
 
 ## Education
 
@@ -26,7 +28,7 @@ See [here](/publications/).
 
 ## Conferences and Workshops
 
-### Participations
+### Participation
 
 * 2021-06: Masterclass on high dimensional cohomology of moduli spaces -- Copenhagen
 * 2021-06: Workshop on Higher Structures and Operadic Calculus -- Barcelona (virtual)
@@ -65,18 +67,20 @@ See [here](/publications/).
 
 ### Other teaching
 
-I taught the following week-long courses aimed at high school and younger university students at summer schools of the [Quod Erat Demonstrandum e.V.](https://qed-verein.de/) (also see below under "Other"):
+I taught the following week-long courses aimed at high school and younger university students at summer schools of the [Quod Erat Demonstrandum e.V.](https://qed-verein.de/) (also see below under "Other activities"):
 
 * 2021: _Geometric group theory_, with [Aras Ergus](https://aergus.net/).
 * 2020: _Knot theory and practice_, with [Aras Ergus](https://aergus.net/).
 * 2017: _Introduction to Topology_, with [Leon Hendrian](http://hendrian.net).
 
 
-## Other
+## Other activities
 
-* Since 2011: I am member of the [Quod Erat Demonstrandum e.V.](https://qed-verein.de/), a Bavarian math club for high school and university students, and was its deputy chairman from 2013 to 2015.
-I also functioned as an organizer for one of its seminars (in 2013) and one summer school/academy (in 2014).
-Moreover, together with Aras Ergus and Leon Hendrian, I taught three courses at its summer school (in 2017, 2020, and 2021), see under "Teaching".
-* Since 2015: I participated in the [ICFP Programming Contest](https://www.icfpconference.org/contest.html) as part of team udfew every year except for 2016.
-* 2014: I participated in the [International Tournament of Young Mathematicians](https://www.itym.org/) as part of the team of Bremen, achieving third place.
-* 2006--2014: In my high school years I participated in various German math, computer science, and robotics competitions, with success at the federal state level.
+* Since 2011: Member of the [Quod Erat Demonstrandum e.V.](https://qed-verein.de/), a Bavarian math club for high school and university students.
+* Since 2015: Participation in the [ICFP Programming Contest](https://www.icfpconference.org/contest.html) as part of team udfew in every year except for 2016.
+* 2015--2018: Supervisor and tutor at three summer schools for mathematically interested pupils from Bremen.
+* 2013--2015: Deputy chairman of the Quod Erat Demonstrandum e.V.
+* 2014: Organizer of the yearly summer school of the Quod Erat Demonstrandum e.V. in Sonthofen. \\
+* 2014: Participation in the [International Tournament of Young Mathematicians](https://www.itym.org/) as part of the team of Bremen, achieving third place.
+* 2006--2014: Various participations in German math, robotics, and computer science competitions for high school students, with success at the federal state level
+* 2013: Organizer of a seminar of the Quod Erat Demonstrandum e.V. in Kronach
