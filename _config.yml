@@ -11,7 +11,7 @@ title                    : "Robin Stoll"
 title_separator          : "-"
 name                     : &name "Robin Stoll"
 description              : &description "Personal website of Robin Stoll"
-url                      : https://robinstoll.gitlab.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://www.robinstoll.de # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RobinStoll/robinstoll.gitlab.io"
 breadcrumbs              : false
