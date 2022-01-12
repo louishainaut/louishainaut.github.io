@@ -7,24 +7,25 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Robin Stoll"
+title                    : "Louis Hainaut"
 title_separator          : "-"
-name                     : &name "Robin Stoll"
-description              : &description "Personal website of Robin Stoll"
-url                      : https://www.robinstoll.de # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Louis Hainaut"
+description              : &description "Personal website of Louis Hainaut"
+url                      : https://louishainaut.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "RobinStoll/robinstoll.gitlab.io"
+repository               : "louishainaut/louishainaut.github.io"
 breadcrumbs              : false
 
 # Site Author
 author:
-  name     : "Robin Stoll"
+  name     : "Louis Hainaut"
   avatar   : "profile.png"
-  bio      : "PhD student in Algebraic Topology"
+  bio      : "PhD student in Mathematics"
   employer : "Stockholm University"
-  email    : "robin.stoll@math.su.se"
-  orcid    : "https://orcid.org/0000-0002-2068-6228"
-  arxiv    : "https://arxiv.org/a/0000-0002-2068-6228.html"
+  email    : "hainaut@math.su.se"
+  orcid    : "https://orcid.org/0000-0002-4710-8575"
+  arxiv    : "https://arxiv.org/a/0000-0002-4710-8575.html"
+  linkedin : "https://www.linkedin.com/in/louis-hainaut-98aa53182/"
 
 # Reading Files
 include:
