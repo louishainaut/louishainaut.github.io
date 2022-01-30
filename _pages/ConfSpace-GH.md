@@ -18,7 +18,7 @@ Please check out the paper for more detail.
 The cell below contains the functions necessary for computing the cohomology groups
 
 <div class="sage">
-    <script type="text/x-sage">
+<script type="text/x-sage">
 ######################### Computations for the E1-page ################################
 
 p = SymmetricFunctions(QQ).power()
@@ -248,5 +248,5 @@ def Sharpen_LowerBound(particles, dimension, Hom, Partial = False):
         return Hom
 
 print('Success!')
-    </script>
+</script>
 </div>
