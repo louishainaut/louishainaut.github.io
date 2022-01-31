@@ -21,8 +21,7 @@ This page contains data from the paper *[Configuration spaces on a wedge of sphe
 
 The cell below contains the functions necessary to compute the cohomology. *(These cells are linked, so please always start with evaluating the first two cells.)*
 
-<div class="sage">
-    <script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 # Computations for the E1-page
 
 p = SymmetricFunctions(QQ).power()
@@ -236,13 +235,11 @@ def Sharpen_LowerBound(particles, dimension, Hom, Partial = False):
         return Hom
         
 print("Success!")
-    </script>
-</div>
+</script></div>
     
 The following cell contains functions to help the visualization of the data produced.
     
-<div class="sage">
-    <script type="text/x-sage">
+<div class="sage"><script type="text/x-sage">
 def Focus_Cohomology(Hom, Focus = "Sym", partition = None, codim = 1, Filtered = False):
     if Focus == "Sym":
         if Filtered:
@@ -323,5 +320,4 @@ def Twisted_Cohom_M2(partition):
     #else:
     return int((a - b)/6) + (a % 2)
 print("Success!")
-    </script>
-</div>
+</script></div>
