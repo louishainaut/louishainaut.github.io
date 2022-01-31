@@ -1,11 +1,9 @@
-<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<title>Configuration spaces on a wedge of spheres</title>
 <meta name="author" content="Gadish, Hainaut">
 <meta name="description" content="Compactly supported cohomology of configuration spaces on a wedge of spheres">
 
@@ -54,7 +52,7 @@ code {
     
     <div class="sage">
         <script type="text/x-sage">
-######################### Computations for the E1-page ################################
+# Computations for the E1-page
 
 p = SymmetricFunctions(QQ).power()
 s = SymmetricFunctions(QQ).schur()
@@ -85,7 +83,7 @@ def E1(particles, dimension, line, col, CTot):
                 result += temp
     return (-1)^(dimension*line+col)*result
 
-############################## Computations for the E2-page ######################################
+# Computations for the E2-page
 
 # Takes the alternating sum of a line and distributes the terms in the two possibly non-zero terms according to
 # their sign (would provide the correct answer if there were no cancellation in the Euler characteristic)
@@ -114,7 +112,7 @@ def Compute_LowerBound(particles, dimension):
     return Hom
 
 
-##The following is a long function. Therefore it is the last one on this cell
+#The following is a long function. Therefore it is the last one on this cell
 
 # When Partial is set to True it only corrects the multiplicities whose value follows from a theoretical argument
 # (i.e. the symmetric and exterior powers).
@@ -309,7 +307,7 @@ def Restrict_Genus(Hom, genus):
     return [[Restr_Genus(el, genus) for el in list_filtered] for list_filtered in Hom]
     
 
-#Returns the equivariant cohomology of the moduli space M2n in weight zero
+# Returns the equivariant cohomology of the moduli space M2n in weight zero
 # 'codim' can only take two values. The default codim=1 outputs the cohomological degree n+2
 # Alternatively the value codim=0 outputs the cohomological degree n+3
 # By default this function first computes the homology of a wedge of circles. If this is
@@ -325,11 +323,8 @@ def Cohomology_M2n(particles, Hom = None, codim = 1):
             result += Twisted_Cohom_M2(part)*Focus_GL(Hom[1-codim][sum(part)], part)
             
     return result
-#def SymGroup_Multiplicity(Hom, partition, degree = None):
-    
-#ideas: - Default presentation: just symmetric and exterior powers in codimension 1
-    
-########## Helper functions, you should not need to call them directly ############################
+  
+# Helper functions, you should not need to call them directly
 
 def Focus_GL(element, part):
     return sum(coeff*s[index[0]]*(index[1]==part) for index, coeff in element)
