@@ -6,11 +6,12 @@ author_profile: true
 
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
 <script>sagecell.makeSagecell({"inputLocation": ".sage", linked: 'True'});</script>
+<link rel="stylesheet" type="text/css" href="https://sagecell.sagemath.org/static/sagecell_embed.css">
 
 {% include base_path %}
 
-**[Background](#background)
-[Data Presentation](#data)**
+**[Background](#background)**
+**[Data Presentation](#data)**
 
 # Background {#background}
 
