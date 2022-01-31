@@ -57,12 +57,11 @@ code {
 p = SymmetricFunctions(QQ).power()
 s = SymmetricFunctions(QQ).schur()
 
-
 # returns the decomposition of the term in degree n of the Lie operad into irreducibles
 def Lie(n):
     if n == 0:
         return s.zero()
-    
+        
     result = sum(moebius(d)*p[d]^Integer(n/d) for d in divisors(n))
     return s(result/n)
 
@@ -82,7 +81,7 @@ def E1(particles, dimension, line, col, CTot):
                 temp = aux_func(part2, CTot[0])*temp_top
                 result += temp
     return (-1)^(dimension*line+col)*result
-
+    
 # Computations for the E2-page
 
 # Takes the alternating sum of a line and distributes the terms in the two possibly non-zero terms according to
