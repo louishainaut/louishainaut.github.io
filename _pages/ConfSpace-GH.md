@@ -326,13 +326,17 @@ The following cell contains examples of how to compute and display the cohomolog
     
 <div class = "sage">
     <script type="text/x-sage">
-#Why the fuck isn't this shit working?
-#How hard is it to make linebreaks?
-#Bitch!
+        #Why the fuck isn't this shit working?
+        #How hard is it to make linebreaks?
+        #Bitch!
     </script>
 </div>
     
     
 <div class="sage"><script type="text/x-sage">
-    
-    </script></div>
+    M2n = Cohomology_M2n(10)
+    # M2n = Cohomology_M2n(8, Hom = Already_Computed, codim = 0)
+    # for part in Partitions(10):
+    #    print(part, " : ", M2n.scalar(s(part)))
+
+</script></div>
