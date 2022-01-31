@@ -1,11 +1,11 @@
-<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-<script>sagecell.makeSagecell({"inputLocation": ".sage", linked: 'True'});</script>
-
 ---
 title: "Compactly supported cohomology of configuration spaces on a wedge of spheres"
 permalink: /ConfSpace-GH/
 author_profile: true
 ---
+
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
+<script>sagecell.makeSagecell({"inputLocation": ".sage", linked: 'True'});</script>
 
 {% include base_path %}
 
