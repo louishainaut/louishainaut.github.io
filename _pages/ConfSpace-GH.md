@@ -321,3 +321,18 @@ def Twisted_Cohom_M2(partition):
     return int((a - b)/6) + (a % 2)
 print("Success!")
 </script></div>
+    
+The following cell contains examples of how to compute and display the cohomology of the configuration spaces. If you are only interested in the cohomology of $\mathcal{M}_{2,n}$ please see the last cell.
+    
+<div class = "sage">
+    <script type="text/x-sage">
+#Why the fuck isn't this shit working?
+#How hard is it to make linebreaks?
+#Bitch!
+    </script>
+</div>
+    
+    
+<div class="sage"><script type="text/x-sage">
+    
+    </script></div>
