@@ -326,9 +326,7 @@ The following cell contains examples of how to compute and display the cohomolog
     
 <div class = "sage">
     <script type="text/x-sage">
-        #Why the fuck isn't this shit working?
-        #How hard is it to make linebreaks?
-        #Bitch!
+        
     </script>
 </div>
     
