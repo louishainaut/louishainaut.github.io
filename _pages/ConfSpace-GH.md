@@ -10,7 +10,7 @@ author_profile: true
 
 {% include base_path %}
 
-**[Background](#background)**
+**[Background](#background)**<br>
 **[Data Presentation](#data)**
 
 # Background {#background}
@@ -24,7 +24,7 @@ The cell below contains the functions necessary to compute the cohomology. *(The
 <div class="sage">
 <script type="text/x-sage">
     
-{# Computations for the E1-page
+# Computations for the E1-page
 
 p = SymmetricFunctions(QQ).power()
 s = SymmetricFunctions(QQ).schur()
@@ -236,7 +236,7 @@ def Sharpen_LowerBound(particles, dimension, Hom, Partial = False):
 
         return Hom
         
-print("Success!")}
+print("Success!")
     
 </script>
 </div>
