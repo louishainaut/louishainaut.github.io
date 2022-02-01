@@ -27,36 +27,36 @@ The cell below contains the functions necessary to compute the cohomology. *(The
 <div class="sage">
 <script type="text/x-sage">
     
-# Computations for the E1-page
-
-p = SymmetricFunctions(QQ).power()
-s = SymmetricFunctions(QQ).schur()
-
-# returns the decomposition of the term in degree n of the Lie operad into irreducibles
-def Lie(n):
-    if n == 0:
-        return s.zero()
-        
-    result = sum(moebius(d)*p[d]^Integer(n/d) for d in divisors(n))
-    return s(result/n)
-
-# This function and the next one implement by hand the plethysm of s[n] with SLie \otimes H(X), so that only the
-# necessary terms are computed and are added to the appropriate term on the E1 page
-def aux_func(part, chain_comp):
-    l = part.to_exp()
-    return prod( s[l[i]].plethysm(chain_comp[i+1]) for i in range(len(l)) )
-
-
-def E1(particles, dimension, line, col, CTot):
-    result = s.zero().tensor(s.zero())
-    for k in range(particles-line-col, particles-line+1):
-        for part1 in Partitions(particles-k, length = line):
-            temp_top = aux_func(part1, CTot[1])
-            for part2 in Partitions(k, length = particles-line-col):
-                temp = aux_func(part2, CTot[0])*temp_top
-                result += temp
-    return (-1)^(dimension*line+col)*result
-    
+# Computations for the E1-page  
+  
+p = SymmetricFunctions(QQ).power()  
+s = SymmetricFunctions(QQ).schur()  
+  
+# returns the decomposition of the term in degree n of the Lie operad into irreducibles  
+def Lie(n):  
+    if n == 0:  
+        return s.zero()  
+  
+    result = sum(moebius(d)*p[d]^Integer(n/d) for d in divisors(n))  
+    return s(result/n)  
+  
+# This function and the next one implement by hand the plethysm of s[n] with SLie \otimes H(X), so that only the  
+# necessary terms are computed and are added to the appropriate term on the E1 page  
+def aux_func(part, chain_comp):  
+    l = part.to_exp()  
+    return prod( s[l[i]].plethysm(chain_comp[i+1]) for i in range(len(l)) )  
+  
+  
+def E1(particles, dimension, line, col, CTot):  
+    result = s.zero().tensor(s.zero())  
+    for k in range(particles-line-col, particles-line+1):  
+        for part1 in Partitions(particles-k, length = line):  
+            temp_top = aux_func(part1, CTot[1])  
+            for part2 in Partitions(k, length = particles-line-col):  
+                temp = aux_func(part2, CTot[0])*temp_top  
+                result += temp  
+    return (-1)^(dimension*line+col)*result  
+  
 # Computations for the E2-page
 
 # Takes the alternating sum of a line and distributes the terms in the two possibly non-zero terms according to
@@ -248,18 +248,18 @@ The following cell contains functions to help the visualization of the data prod
     
 <div class="sage">
     <script type="text/x-sage">
-        
-def Focus_Cohomology(Hom, Focus = "Sym", partition = None, codim = 1, Filtered = False):
-    if Focus == "Sym":
-        if Filtered:
-            return [Focus_SymGroup(el, partition) for el in Hom[1-codim]]
-        else:
-            return Focus_SymGroup(sum(Hom[1-codim]), partition)
-        
-    if Focus == "GL":
-        line = sum(partition)
-        return Focus_GL(Hom[1-codim][line], partition)
-    
+\
+def Focus_Cohomology(Hom, Focus = "Sym", partition = None, codim = 1, Filtered = False):\
+    if Focus == "Sym":\
+        if Filtered:\
+            return [Focus_SymGroup(el, partition) for el in Hom[1-codim]]\
+        else:\
+            return Focus_SymGroup(sum(Hom[1-codim]), partition)\
+\
+    if Focus == "GL":\
+        line = sum(partition)\
+        return Focus_GL(Hom[1-codim][line], partition)\
+\
 def Forget_Equivariance(Hom, Forget = "Sym", genus = 0, codim = 1, Filtered = False):
     if Forget == "Sym":
         if Filtered:
