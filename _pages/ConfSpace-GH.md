@@ -23,9 +23,8 @@ The cell below contains the functions necessary to compute the cohomology. *(The
 
 <div class="sage">
 <script type="text/x-sage">
-<code>
     
-# Computations for the E1-page
+{# Computations for the E1-page
 
 p = SymmetricFunctions(QQ).power()
 s = SymmetricFunctions(QQ).schur()
@@ -237,10 +236,9 @@ def Sharpen_LowerBound(particles, dimension, Hom, Partial = False):
 
         return Hom
         
-print("Success!")
+print("Success!")}
     
-    </code>
-    </script>
+</script>
 </div>
     
 The following cell contains functions to help the visualization of the data produced.
