@@ -25,8 +25,8 @@ This page contains data from the paper *[Configuration spaces on a wedge of sphe
 The cell below contains the functions necessary to compute the cohomology. *(These cells are linked, so please always start with evaluating the first two cells.)*
 
 <div class="sage">
-<script type="text/x-sage">
-    
+<script type="text/x-sage">  
+  
 # Computations for the E1-page  
   
 p = SymmetricFunctions(QQ).power()  
@@ -247,19 +247,19 @@ print("Success!")
 The following cell contains functions to help the visualization of the data produced.
     
 <div class="sage">
-    <script type="text/x-sage">
-\
-def Focus_Cohomology(Hom, Focus = "Sym", partition = None, codim = 1, Filtered = False):\
-    if Focus == "Sym":\
-        if Filtered:\
-            return [Focus_SymGroup(el, partition) for el in Hom[1-codim]]\
-        else:\
-            return Focus_SymGroup(sum(Hom[1-codim]), partition)\
-\
-    if Focus == "GL":\
-        line = sum(partition)\
-        return Focus_GL(Hom[1-codim][line], partition)\
-\
+    <script type="text\x-sage">
+
+def Focus_Cohomology(Hom, Focus = "Sym", partition = None, codim = 1, Filtered = False):
+    if Focus == "Sym":
+        if Filtered:
+            return [Focus_SymGroup(el, partition) for el in Hom[1-codim]]
+        else:
+            return Focus_SymGroup(sum(Hom[1-codim]), partition)
+
+    if Focus == "GL":
+        line = sum(partition)
+        return Focus_GL(Hom[1-codim][line], partition)
+
 def Forget_Equivariance(Hom, Forget = "Sym", genus = 0, codim = 1, Filtered = False):
     if Forget == "Sym":
         if Filtered:
