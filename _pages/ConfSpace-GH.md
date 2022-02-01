@@ -23,6 +23,7 @@ The cell below contains the functions necessary to compute the cohomology. *(The
 
 <div class="sage">
 <script type="text/x-sage">
+<code>
     
 # Computations for the E1-page
 
@@ -238,7 +239,8 @@ def Sharpen_LowerBound(particles, dimension, Hom, Partial = False):
         
 print("Success!")
     
-</script>
+    </code>
+    </script>
 </div>
     
 The following cell contains functions to help the visualization of the data produced.
