@@ -1,6 +1,6 @@
 ---
 title: "Compactly supported cohomology of configuration spaces on a wedge of spheres"
-permalink: /ConfSpace-GH/
+permalink: /GH-ConfSpacd/
 author_profile: true
 ---
 
