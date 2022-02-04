@@ -27,10 +27,10 @@ The cell below contains the functions necessary to compute the cohomology. *(The
 <DIV class="sage">
 <script type="text/x-sage">  
   
-# Computations for the E1-page  
+# Computations for the E1-page\n\n  
   
-p = SymmetricFunctions(QQ).power()  
-s = SymmetricFunctions(QQ).schur()  
+p = SymmetricFunctions(QQ).power()\n\n  
+s = SymmetricFunctions(QQ).schur()\n\n  
   
 # returns the decomposition of the term in degree n of the Lie operad into irreducibles  
 def Lie(n):  
