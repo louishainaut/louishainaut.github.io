@@ -24,7 +24,7 @@ This page contains data from the paper *[Configuration spaces on a wedge of sphe
 
 The cell below contains the functions necessary to compute the cohomology. *(These cells are linked, so please always start with evaluating the first two cells.)*
 
-<div class="sage">
+<DIV class="sage">
 <script type="text/x-sage">  
   
 # Computations for the E1-page  
@@ -242,11 +242,12 @@ def Sharpen_LowerBound(particles, dimension, Hom, Partial = False):
 print("Success!")
     
 </script>
-</div>
+</DIV>
     
 The following cell contains functions to help the visualization of the data produced.
     
 <div class="sage">
+    
     <script type="text\x-sage">
 
 def Focus_Cohomology(Hom, Focus = "Sym", partition = None, codim = 1, Filtered = False):
@@ -331,6 +332,7 @@ def Twisted_Cohom_M2(partition):
 print("Success!")
         
     </script>
+        
 </div>
     
 The following cell contains examples of how to compute and display the cohomology of the configuration spaces. If you are only interested in the cohomology of $\mathcal{M}_{2,n}$ please see the last cell.
