@@ -1,0 +1,3 @@
+[submodule "GH-ConfSpace"]
+	path = GH-ConfSpace
+	url = https://github.com/louishainaut/GH-ConfSpace
