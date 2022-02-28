@@ -11,7 +11,7 @@ redirect_from:
 
 1. Nir Gadish and Louis Hainaut. \\
 _Configuration spaces on a wedge of spheres and higher Hochschild homology_. \\
-In preparation, 2022.
+arXiv: [2202.12494](https://arxiv.org/abs/2202.12494).
 
 1. Louis Hainaut. \\
 _The Euler characteristic of configuration spaces_. \\
