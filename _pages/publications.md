@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# Prepublications
+## Preprints
 
 1. Louis Hainaut and Dan Petersen. \\
 _Top weight cohomology of moduli spaces of Riemann surfaces and handlebodies_. \\
@@ -21,7 +21,7 @@ arXiv: [2202.12494](https://arxiv.org/abs/2202.12494). \\
 Algorithms available from [https://github.com/louishainaut/GH-ConfSpace](https://github.com/louishainaut/GH-ConfSpace). \\
 Associated webpage for displaying the results: [https://louishainaut.github.io/GH-ConfSpace/](https://louishainaut.github.io/GH-ConfSpace/)
 
-# Publications
+## Publications
 
 1. Louis Hainaut. \\
 _The Euler characteristic of configuration spaces_. \\
