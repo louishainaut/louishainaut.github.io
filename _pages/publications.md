@@ -11,6 +11,10 @@ redirect_from:
 
 ## Preprints
 
+1. Louis Hainaut. \\
+_(Non-)vanishing results for extensions between simple outer functors_. \\
+arXiv: [2311.16881](https://arxiv.org/abs/2311.16881).
+
 1. Louis Hainaut and Dan Petersen. \\
 _Top weight cohomology of moduli spaces of Riemann surfaces and handlebodies_. \\
 arXiv: [2305.03046](https://arxiv.org/abs/2305.03046).
